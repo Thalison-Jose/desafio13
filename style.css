@@ -22,8 +22,27 @@
 }
 #cellphone iframe{
     position: relative;
-    top: 58px;
+    top: 59px;
     left: 17px;
     width: 183px;
     height: 325px;
+}
+#social-media{
+    text-align: right;
+}
+#social-media a{
+    cursor: context-menu;
+}
+#social-media img{
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    box-sizing: border-box;
+}
+#social-media img:hover{
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 10px black ;
+    transition: .2s;
+    margin: 10px 15px 10px 0px;
+
 }
